@@ -1,47 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
   <defs>
-    <linearGradient id="case" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3d3846"/>
-      <stop offset="1" stop-color="#241f31"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="64" cy="66" r="52" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a2e3a"/><stop offset="1" stop-color="#14161d"/></linearGradient>
+    <radialGradient id="glow" cx="64" cy="62" r="46" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3ee8d0" stop-opacity=".45"/><stop offset="1" stop-color="#3ee8d0" stop-opacity="0"/></radialGradient>
   </defs>
-  <rect x="8" y="34" width="112" height="70" rx="12" fill="#241f31"/>
-  <rect x="8" y="30" width="112" height="70" rx="12" fill="url(#case)"/>
-  <rect x="12" y="34" width="104" height="62" rx="9" fill="url(#glow)"/>
-  <g fill="#5e5c64">
-    <rect x="18" y="40" width="14" height="13" rx="3"/>
-    <rect x="36" y="40" width="14" height="13" rx="3"/>
-    <rect x="54" y="40" width="14" height="13" rx="3"/>
-    <rect x="72" y="40" width="14" height="13" rx="3"/>
-    <rect x="90" y="40" width="20" height="13" rx="3"/>
-    <rect x="18" y="58" width="20" height="13" rx="3"/>
-    <rect x="42" y="58" width="14" height="13" rx="3"/>
-    <rect x="60" y="58" width="14" height="13" rx="3"/>
-    <rect x="78" y="58" width="14" height="13" rx="3"/>
-    <rect x="96" y="58" width="14" height="13" rx="3"/>
-    <rect x="18" y="76" width="14" height="13" rx="3"/>
-    <rect x="36" y="76" width="56" height="13" rx="3"/>
-    <rect x="96" y="76" width="14" height="13" rx="3"/>
+  <rect x="8" y="12" width="112" height="108" rx="24" fill="#0b0c10"/>
+  <rect x="8" y="8" width="112" height="108" rx="24" fill="url(#bg)"/>
+  <circle cx="64" cy="62" r="46" fill="url(#glow)"/>
+  <g stroke="#7ff5e3" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M64 62 L64 30 M64 40 L52 26 M64 40 L76 26"/>
+    <path d="M64 62 L36 80 M44 75 L30 70 M44 75 L38 92"/>
+    <path d="M64 62 L92 80 M84 75 L98 70 M84 75 L90 92"/>
   </g>
-  <g fill="#ffffff">
-    <rect x="22" y="45" width="6" height="2" rx="1"/>
-    <rect x="40" y="45" width="6" height="2" rx="1"/>
-    <rect x="58" y="45" width="6" height="2" rx="1"/>
-    <rect x="76" y="45" width="6" height="2" rx="1"/>
-    <rect x="94" y="45" width="12" height="2" rx="1"/>
-    <rect x="22" y="63" width="12" height="2" rx="1"/>
-    <rect x="46" y="63" width="6" height="2" rx="1"/>
-    <rect x="64" y="63" width="6" height="2" rx="1"/>
-    <rect x="82" y="63" width="6" height="2" rx="1"/>
-    <rect x="100" y="63" width="6" height="2" rx="1"/>
-    <rect x="22" y="81" width="6" height="2" rx="1"/>
-    <rect x="58" y="81" width="12" height="2" rx="1"/>
-    <rect x="100" y="81" width="6" height="2" rx="1"/>
+  <g fill="#e9fffb">
+    <circle cx="52" cy="26" r="5"/><circle cx="76" cy="26" r="5"/><circle cx="64" cy="28" r="4"/>
+    <circle cx="30" cy="70" r="5"/><circle cx="38" cy="92" r="5"/>
+    <circle cx="98" cy="70" r="5"/><circle cx="90" cy="92" r="5"/>
   </g>
-  <circle cx="104" cy="22" r="10" fill="#f6f5f4"/>
-  <circle cx="104" cy="22" r="16" fill="#ffffff" fill-opacity="0.25"/>
+  <circle cx="64" cy="62" r="13" fill="#3ee8d0"/>
+  <circle cx="64" cy="62" r="7" fill="#ffffff"/>
 </svg>

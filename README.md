@@ -1,3 +1,5 @@
+<p align="center"><img src="data/icons/hicolor/scalable/apps/io.github.joaovmourasouza.Synaptix.svg" width="128" alt="Ícone do Synaptix"></p>
+
 # Synaptix
 
 Controle de iluminação para periféricos Razer no Linux — teclados, mouses, mousepads, notebooks Blade e acessórios — em um app GTK4/libadwaita distribuído como Flatpak.

@@ -1,3 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-  <path fill="#241f31" d="M3 5h10a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2v1.5h1.5V7zm2.5 0v1.5H7V7zM8 7v1.5h1.5V7zm2.5 0v1.5H13V7zM3 10v1.5h1.5V10zm2.5 0v1.5h5V10zm6 0v1.5H13V10zM13 0.5a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3z"/>
+  <g fill="#241f31">
+    <rect x="7.25" y="2.5" width="1.5" height="6" rx=".75"/>
+    <rect x="7.25" y="7" width="1.5" height="6" rx=".75" transform="rotate(-58 8 8)"/>
+    <rect x="7.25" y="7" width="1.5" height="6" rx=".75" transform="rotate(58 8 8)"/>
+    <circle cx="8" cy="2" r="1.6"/>
+    <circle cx="2.8" cy="11.2" r="1.6"/>
+    <circle cx="13.2" cy="11.2" r="1.6"/>
+    <circle cx="8" cy="8" r="3"/>
+  </g>
 </svg>
