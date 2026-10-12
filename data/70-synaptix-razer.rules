@@ -1,0 +1,3 @@
+# Lets the logged-in user access Razer devices through hidraw, so Synaptix can
+# control them without a kernel driver. Install to /etc/udev/rules.d/.
+KERNEL=="hidraw*", ATTRS{idVendor}=="1532", TAG+="uaccess"

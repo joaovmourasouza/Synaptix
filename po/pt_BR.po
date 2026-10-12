@@ -1,0 +1,330 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: synaptix\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: synaptix/app.py:25
+msgid "Start without opening a window"
+msgstr "Iniciar sem abrir uma janela"
+
+#: synaptix/app.py:102
+msgid "Synaptix keeps your device lighting and idle dimming running."
+msgstr "O Synaptix mantém a iluminação dos dispositivos e o escurecimento por inatividade funcionando."
+
+#: synaptix/app.py:120 synaptix/window.py:436 synaptix/window.py:464
+#: synaptix/window.py:467 synaptix/window.py:536
+msgid "Synaptix"
+msgstr "Synaptix"
+
+#: synaptix/app.py:127
+msgid ""
+"Lighting control for Razer peripherals, talking to the devices directly over "
+"USB HID. Not affiliated with Razer Inc."
+msgstr "Controle de iluminação para periféricos Razer, conversando com os dispositivos diretamente por USB HID. Não é afiliado à Razer Inc."
+
+#: synaptix/app.py:130
+msgid "Device data and protocol"
+msgstr "Dados dos dispositivos e protocolo"
+
+#: synaptix/window.py:35
+msgid "Static"
+msgstr "Estático"
+
+#: synaptix/window.py:36
+msgid "Breathing"
+msgstr "Respiração"
+
+#: synaptix/window.py:37
+msgid "Breathing (Two Colors)"
+msgstr "Respiração (duas cores)"
+
+#: synaptix/window.py:38
+msgid "Breathing (Random)"
+msgstr "Respiração (aleatória)"
+
+#: synaptix/window.py:39
+msgid "Pulse"
+msgstr "Pulso"
+
+#: synaptix/window.py:40
+msgid "Spectrum Cycle"
+msgstr "Ciclo de cores"
+
+#: synaptix/window.py:41
+msgid "Wave"
+msgstr "Onda"
+
+#: synaptix/window.py:42
+msgid "Reactive"
+msgstr "Reativo"
+
+#: synaptix/window.py:43
+msgid "Ripple"
+msgstr "Ondulação"
+
+#: synaptix/window.py:44
+msgid "Starlight"
+msgstr "Starlight"
+
+#: synaptix/window.py:45
+msgid "Fire"
+msgstr "Fogo"
+
+#: synaptix/window.py:46
+msgid "Per-LED Colors"
+msgstr "Cores por LED"
+
+#: synaptix/window.py:47
+msgid "Off"
+msgstr "Desligado"
+
+#: synaptix/window.py:96 synaptix/window.py:99
+msgid "Brush"
+msgstr "Pincel"
+
+#: synaptix/window.py:101
+msgid "Fill All"
+msgstr "Preencher tudo"
+
+#: synaptix/window.py:128
+#, python-brace-format
+msgid "{zone} LED {number}"
+msgstr "{zone} LED {number}"
+
+#: synaptix/window.py:161
+msgid "Lighting preview"
+msgstr "Prévia da iluminação"
+
+#: synaptix/window.py:170
+msgid "Lighting"
+msgstr "Iluminação"
+
+#: synaptix/window.py:171
+msgid "Effect"
+msgstr "Efeito"
+
+#: synaptix/window.py:175
+msgid "Color"
+msgstr "Cor"
+
+#: synaptix/window.py:177
+msgid "Second Color"
+msgstr "Segunda cor"
+
+#: synaptix/window.py:180
+msgid "Colors"
+msgstr "Cores"
+
+#: synaptix/window.py:181
+msgid "Random"
+msgstr "Aleatórias"
+
+#: synaptix/window.py:181
+msgid "One Color"
+msgstr "Uma cor"
+
+#: synaptix/window.py:181
+msgid "Two Colors"
+msgstr "Duas cores"
+
+#: synaptix/window.py:185
+msgid "Speed"
+msgstr "Velocidade"
+
+#: synaptix/window.py:185
+msgid "Fast"
+msgstr "Rápida"
+
+#: synaptix/window.py:185
+msgid "Medium"
+msgstr "Média"
+
+#: synaptix/window.py:185
+msgid "Slow"
+msgstr "Lenta"
+
+#: synaptix/window.py:189
+msgid "Direction"
+msgstr "Direção"
+
+#: synaptix/window.py:190
+msgid "Left"
+msgstr "Esquerda"
+
+#: synaptix/window.py:190
+msgid "Right"
+msgstr "Direita"
+
+#: synaptix/window.py:195
+msgid "Pulse Duration"
+msgstr "Duração do pulso"
+
+#: synaptix/window.py:196
+msgid "Seconds per pulse"
+msgstr "Segundos por pulso"
+
+#: synaptix/window.py:208 synaptix/window.py:210
+msgid "Brightness"
+msgstr "Brilho"
+
+#: synaptix/window.py:214 synaptix/window.py:362
+msgid "Dim When Idle"
+msgstr "Escurecer quando ocioso"
+
+#: synaptix/window.py:215
+msgid "Include this device in idle dimming"
+msgstr "Incluir este dispositivo no escurecimento por inatividade"
+
+#: synaptix/window.py:221
+msgid "LEDs"
+msgstr "LEDs"
+
+#: synaptix/window.py:221
+msgid ""
+"Pick a brush color, then click LEDs here or in the preview to paint them"
+msgstr "Escolha a cor do pincel e clique nos LEDs aqui ou na prévia para pintá-los"
+
+#: synaptix/window.py:246
+#, python-brace-format
+msgid "through {receiver}"
+msgstr "via {receiver}"
+
+#: synaptix/window.py:248
+#, python-brace-format
+msgid "Firmware {version}"
+msgstr "Firmware {version}"
+
+#: synaptix/window.py:252
+msgid "Unknown model: effects detected from the firmware"
+msgstr "Modelo desconhecido: efeitos detectados pelo firmware"
+
+#: synaptix/window.py:356 synaptix/window.py:482
+msgid "Preferences"
+msgstr "Preferências"
+
+#: synaptix/window.py:361
+msgid "Idle Dimming"
+msgstr "Inatividade"
+
+#: synaptix/window.py:363
+msgid "Turn the lighting off after a period without input"
+msgstr "Apaga a iluminação após um período sem uso"
+
+#: synaptix/window.py:367
+msgid "Idle Time"
+msgstr "Tempo de inatividade"
+
+#: synaptix/window.py:368
+msgid "Seconds before dimming"
+msgstr "Segundos antes de escurecer"
+
+#: synaptix/window.py:373
+msgid "Warning Breaths"
+msgstr "Respirações de aviso"
+
+#: synaptix/window.py:374
+msgid "Pulses before the light goes out"
+msgstr "Pulsos antes de a luz apagar"
+
+#: synaptix/window.py:378
+msgid "Fade In"
+msgstr "Acender suavemente"
+
+#: synaptix/window.py:378
+msgid "Light up smoothly when you return"
+msgstr "Acende de forma gradual quando você volta"
+
+#: synaptix/window.py:383
+msgid "Not available: your desktop does not report idle time"
+msgstr "Indisponível: seu ambiente de trabalho não informa o tempo de inatividade"
+
+#: synaptix/window.py:388
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: synaptix/window.py:390
+msgid "Run in Background"
+msgstr "Executar em segundo plano"
+
+#: synaptix/window.py:391
+msgid "Keep idle dimming and effects running after the window is closed"
+msgstr "Mantém o escurecimento e os efeitos funcionando depois de fechar a janela"
+
+#: synaptix/window.py:395
+msgid "Start on Login"
+msgstr "Iniciar com a sessão"
+
+#: synaptix/window.py:396
+msgid "Apply your lighting when you log in"
+msgstr "Aplica sua iluminação ao entrar na sessão"
+
+#: synaptix/window.py:431
+msgid "Starting on login was not allowed"
+msgstr "Iniciar com a sessão não foi permitido"
+
+#: synaptix/window.py:448
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: synaptix/window.py:452
+msgid "Devices"
+msgstr "Dispositivos"
+
+#: synaptix/window.py:461
+msgid "Not Supported Yet"
+msgstr "Ainda não suportado"
+
+#: synaptix/window.py:483
+msgid "About Synaptix"
+msgstr "Sobre o Synaptix"
+
+#: synaptix/window.py:484
+msgid "Quit"
+msgstr "Sair"
+
+#: synaptix/window.py:490
+msgid "No Razer Devices Found"
+msgstr "Nenhum dispositivo Razer encontrado"
+
+#: synaptix/window.py:491
+#, python-brace-format
+msgid ""
+"Connect a Razer keyboard, mouse, mouse mat or accessory. {count} models are "
+"known, and other models are detected automatically."
+msgstr "Conecte um teclado, mouse, mousepad ou acessório Razer. {count} modelos são conhecidos, e outros modelos são detectados automaticamente."
+
+#: synaptix/window.py:503
+msgid "Copy Command"
+msgstr "Copiar comando"
+
+#: synaptix/window.py:508
+msgid "Permission Needed"
+msgstr "Permissão necessária"
+
+#: synaptix/window.py:509
+msgid ""
+"This device was found, but Synaptix is not allowed to talk to it yet. Run "
+"this command once in a terminal; it installs a udev rule that gives your "
+"user access to Razer devices. Synaptix will connect automatically."
+msgstr "Este dispositivo foi encontrado, mas o Synaptix ainda não tem permissão para se comunicar com ele. Execute este comando uma vez em um terminal; ele instala uma regra udev que dá ao seu usuário acesso aos dispositivos Razer. O Synaptix vai se conectar automaticamente."
+
+#: synaptix/window.py:522
+msgid "Permission needed"
+msgstr "Permissão necessária"
+
+#: synaptix/window.py:522
+msgid "Not supported"
+msgstr "Não suportado"
+
+#: synaptix/window.py:559
+#, python-brace-format
+msgid "{name} uses a lighting protocol Synaptix does not speak yet."
+msgstr "{name} usa um protocolo de iluminação que o Synaptix ainda não conhece."
+
+#: synaptix/window.py:592
+msgid "Command copied"
+msgstr "Comando copiado"

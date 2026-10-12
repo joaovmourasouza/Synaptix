@@ -1,0 +1,45 @@
+id: io.github.joaovmourasouza.Synaptix
+runtime: org.gnome.Platform
+runtime-version: '51'
+sdk: org.gnome.Sdk
+command: synaptix
+
+finish-args:
+  - --share=ipc
+  - --socket=wayland
+  - --socket=fallback-x11
+  # Razer devices are reached through /dev/hidraw* (there is no portal for HID devices)
+  - --device=all
+  # Session idle time for idle dimming (GNOME and KDE Plasma)
+  - --talk-name=org.gnome.Mutter.IdleMonitor
+  - --talk-name=org.freedesktop.ScreenSaver
+
+modules:
+  - name: synaptix
+    buildsystem: simple
+    build-commands:
+      - install -d /app/bin /app/share/synaptix/synaptix/razer
+      - install -m644 synaptix/*.py /app/share/synaptix/synaptix/
+      - install -m644 synaptix/razer/*.py /app/share/synaptix/synaptix/razer/
+      - sed -e 's|@PKGDATADIR@|/app/share/synaptix|' -e 's|@LOCALEDIR@|/app/share/locale|'
+        bin/synaptix > /app/bin/synaptix
+      - chmod 755 /app/bin/synaptix
+      - |
+        for lang in $(cat po/LINGUAS); do
+          install -d /app/share/locale/$lang/LC_MESSAGES
+          msgfmt -o /app/share/locale/$lang/LC_MESSAGES/synaptix.mo po/$lang.po
+        done
+      - install -Dm644 data/${FLATPAK_ID}.desktop -t /app/share/applications/
+      - install -Dm644 data/${FLATPAK_ID}.metainfo.xml -t /app/share/metainfo/
+      - install -Dm644 data/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg -t /app/share/icons/hicolor/scalable/apps/
+      - install -Dm644 data/icons/hicolor/symbolic/apps/${FLATPAK_ID}-symbolic.svg -t /app/share/icons/hicolor/symbolic/apps/
+      - install -Dm644 data/70-synaptix-razer.rules -t /app/share/synaptix/
+    sources:
+      - type: dir
+        path: .
+        skip:
+          - .flatpak-builder
+          - build-dir
+          - repo
+          - '*.flatpak'
+          - .git

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.joaovmourasouza.Synaptix</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0-or-later</project_license>
+
+  <name>Synaptix</name>
+  <summary>Lighting control for Razer devices</summary>
+  <summary xml:lang="pt_BR">Controle de iluminação para dispositivos Razer</summary>
+
+  <developer id="io.github.joaovmourasouza">
+    <name>João Moura</name>
+  </developer>
+
+  <description>
+    <p>
+      Synaptix sets the lighting of Razer keyboards, mice, mouse mats, laptops and accessories on Linux.
+      It talks to each device directly over USB HID, so no kernel driver or background daemon is needed.
+    </p>
+    <p xml:lang="pt_BR">
+      O Synaptix controla a iluminação de teclados, mouses, mousepads, notebooks e acessórios Razer no
+      Linux. Ele conversa com cada dispositivo diretamente por USB HID, sem precisar de driver de kernel
+      nem de daemon.
+    </p>
+    <p>Features:</p>
+    <p xml:lang="pt_BR">Recursos:</p>
+    <ul>
+      <li>Hardware effects: static, breathing, spectrum cycle, wave, reactive, ripple, starlight and fire, as supported by each device</li>
+      <li xml:lang="pt_BR">Efeitos de hardware: estático, respiração, ciclo de cores, onda, reativo, ondulação, starlight e fogo, conforme o suporte de cada dispositivo</li>
+      <li>Per-LED colors, painted directly on a preview of the device</li>
+      <li xml:lang="pt_BR">Cores por LED, pintadas diretamente na prévia do dispositivo</li>
+      <li>Brightness control and a pulse effect for any device with adjustable brightness</li>
+      <li xml:lang="pt_BR">Controle de brilho e efeito de pulso para qualquer dispositivo com brilho ajustável</li>
+      <li>Idle dimming: the lighting breathes, fades out when you step away and returns when you come back</li>
+      <li xml:lang="pt_BR">Escurecer quando ocioso: a luz pulsa, apaga quando você se afasta e volta quando você retorna</li>
+      <li>Devices paired to a wireless receiver show up on their own</li>
+      <li xml:lang="pt_BR">Dispositivos pareados a um receptor sem fio aparecem separadamente</li>
+      <li>Runs in the background and can start on login</li>
+      <li xml:lang="pt_BR">Funciona em segundo plano e pode iniciar com a sessão</li>
+    </ul>
+    <p>
+      Around 180 models are known, from the device list of the OpenRGB project. Models not in the list are
+      detected automatically when their firmware reports its lighting effects. Kraken headsets are not
+      supported yet. Access to the devices requires a one-time udev rule, which the app explains on first
+      run. Synaptix is not affiliated with Razer Inc.
+    </p>
+    <p xml:lang="pt_BR">
+      Cerca de 180 modelos são conhecidos, a partir da lista de dispositivos do projeto OpenRGB. Modelos fora
+      da lista são detectados automaticamente quando o firmware informa seus efeitos de iluminação. Headsets
+      Kraken ainda não são suportados. O acesso aos dispositivos exige uma regra udev, instalada uma única
+      vez, que o app explica na primeira execução. O Synaptix não é afiliado à Razer Inc.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">io.github.joaovmourasouza.Synaptix.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Wave effect on an RGB keyboard</caption>
+      <image>https://raw.githubusercontent.com/joaovmourasouza/Synaptix/main/data/screenshots/wave.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Painting per-LED colors</caption>
+      <image>https://raw.githubusercontent.com/joaovmourasouza/Synaptix/main/data/screenshots/per-led.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>A mouse with its lighting zones</caption>
+      <image>https://raw.githubusercontent.com/joaovmourasouza/Synaptix/main/data/screenshots/mouse.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://github.com/joaovmourasouza/Synaptix</url>
+  <url type="bugtracker">https://github.com/joaovmourasouza/Synaptix/issues</url>
+  <url type="vcs-browser">https://github.com/joaovmourasouza/Synaptix</url>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#deddda</color>
+    <color type="primary" scheme_preference="dark">#3d3846</color>
+  </branding>
+
+  <requires>
+    <display_length compare="ge">360</display_length>
+  </requires>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+
+  <provides>
+    <binary>synaptix</binary>
+    <modalias>usb:v1532p*</modalias>
+  </provides>
+
+  <keywords>
+    <keyword>razer</keyword>
+    <keyword>keyboard</keyword>
+    <keyword>backlight</keyword>
+    <keyword>mouse</keyword>
+    <keyword>rgb</keyword>
+    <keyword>chroma</keyword>
+  </keywords>
+
+  <content_rating type="oars-1.1"/>
+
+  <releases>
+    <release version="0.1.0" date="2026-10-12">
+      <description>
+        <p>First release.</p>
+      </description>
+    </release>
+  </releases>
+</component>

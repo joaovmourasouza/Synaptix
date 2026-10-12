@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Synaptix
+Comment=Lighting control for Razer devices
+Comment[pt_BR]=Controle de iluminação para dispositivos Razer
+Exec=synaptix
+Icon=io.github.joaovmourasouza.Synaptix
+Terminal=false
+Type=Application
+Categories=Settings;HardwareSettings;
+Keywords=razer;keyboard;mouse;backlight;lighting;rgb;chroma;
+StartupNotify=true
